@@ -71,7 +71,7 @@
     <!-- 屏蔽kafka的警告 -->
     <logger name="org.apache.kafka" level="ERROR"/>
     <!-- additivity 避免执行2次 -->
-    <logger name="com.itstyle"  level="INFO"  additivity="false">
+    <logger name="com.example" level="INFO" additivity="false">
         <appender-ref ref="STDOUT"/>
         <appender-ref ref="INFO_FILE"/>
         <appender-ref ref="ERROR_FILE"/>
